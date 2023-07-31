@@ -1,6 +1,7 @@
 import React from 'react';
-import { Breadcrumb, Layout, Menu, theme } from 'antd';
-const { Header, Content, Footer } = Layout;
+import {  Button, Layout, Menu, theme } from 'antd';
+import Header from '../Header';
+const {  Content, Footer } = Layout;
 
 const MainLayout = ({children}) => {
 
@@ -9,37 +10,16 @@ const MainLayout = ({children}) => {
   } = theme.useToken();
 
   return (
-    <Layout className="layout">
-      <Header
-        style={{
-          display: 'flex',
-          alignItems: 'center',
-        }}
-      >
-        <div className="demo-log" >
-          logo
-        </div>
-        <Menu
-        className='container mx-auto'
-          theme="dark"
-          mode="horizontal"
-          defaultSelectedKeys={['2']}
-          items={new Array(5).fill(null).map((_, index) => {
-            const key = index + 1;
-            return {
-              key,
-              label: `nav ${key}`,
-            };
-          })}
-        />
-      </Header>
+    <Layout className="layout bg-white">
+      <Header/>
       <Content
      
       >
         <div
-          className="site-layout-content h-screen"
+          className="site-layout-content"
           style={{
             background: colorBgContainer,
+            height:'100vh'
           }}
         >
          {children}
@@ -50,7 +30,7 @@ const MainLayout = ({children}) => {
           textAlign: 'center',
         }}
       >
-        Ant Design ©2023 Created by Ant UED
+        <p className='font-semibold'>Pc Builder ©2023 Created by Bayajid Alam</p>
       </Footer>
     </Layout>
   );

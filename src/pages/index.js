@@ -11,6 +11,7 @@ const HomePage = () => {
 
 export default HomePage;
 
+// set page layout 
 HomePage.getLayout = function getLayout(page) {
-  return <MainLayout>{page}</MainLayout>;
+  return<MainLayout>{page}</MainLayout>;
 };
