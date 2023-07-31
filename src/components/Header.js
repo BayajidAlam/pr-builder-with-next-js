@@ -8,7 +8,7 @@ const Header = () => {
       <div className="flex gap-16 items-center">
 
         <div className="relative group ">
-          <Link className="text-xl font-bold" href="/category">Categories</Link>
+          <div className="text-xl font-bold">Categories</div>
           <ul className="absolute bg-gray-800 hidden group-hover:block  px-4 py-2 mr-2 space-y-2 list-none w-40">
             <li>
               <Link href="/cpu" className="hover:text-gray-300">
@@ -50,7 +50,7 @@ const Header = () => {
 
         <Link href="/build-pc">
           {" "}
-          <button className="h-8 w-24 bg-gradient-to-r from-violet-500 to-fuchsia-500 border border-none">
+          <button className="h-8 w-24 bg-gradient-to-r from-violet-500 to-fuchsia-500 border border-none text-white font-bold">
             Build Now
           </button>
         </Link>

@@ -19,7 +19,6 @@ const MainLayout = ({children}) => {
           className="site-layout-content"
           style={{
             background: colorBgContainer,
-            height:'100vh'
           }}
         >
          {children}

@@ -1,0 +1,58 @@
+import React from "react";
+import {
+  EditOutlined,
+  EllipsisOutlined,
+  SettingOutlined,
+} from "@ant-design/icons";
+import { Avatar, Button, Card } from "antd";
+import Image from "next/image";
+import Link from "next/link";
+
+const { Meta } = Card;
+
+const Featured = ({ pcData }) => {
+  return (
+    <div className="lg:flex items-center justify-center gap-4 mb-8">
+      {pcData.slice(0, 5).map((product, i) => (
+        <Card
+          className="w-full lg:w-[300px] shadow-2xl"
+          key={i}
+          style={{ width: 300 }}
+          cover={
+            <Image
+              className="w-full lg:w-[200px]"
+              src={product.image}
+              width={300}
+              height={250}
+              alt="pc-featured"
+            ></Image>
+          }
+        >
+          <div>
+            <p className="text-xl">{product?.name}</p>
+            <p className="text-xl font-normal">
+              Category:{" "}
+              <span className="font-semibold">{product?.category}</span>
+            </p>
+            <p className="text-xl font-normal">
+              Price: <span className="font-semibold">{product?.price}</span>
+            </p>
+            <p className="text-xl font-normal">
+              Status: <span className="font-semibold">{product?.status}</span>
+            </p>
+            <p className="text-xl font-normal">
+              Rating: <span className="font-semibold">{product?.rating}</span>
+            </p>
+          </div>
+          <div className="text-right mt-2">
+            <Link href={`/product/${product?.id}`}>
+              <Button type="primary">View Details</Button>
+            </Link>
+          </div>
+        </Card>
+      ))}
+    </div>
+  );
+};
+
+export default Featured;

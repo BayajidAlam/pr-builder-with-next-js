@@ -1,0 +1,94 @@
+{
+  "pc": [
+    {
+      "id": 1,
+      "image": "https://i.ibb.co/vscrxgc/km-1920x1080-i5-png-rendition-intel-web-64-64.png",
+      "name": "Processor",
+      "category": "CPU / Processor",
+      "price": 200,
+      "status": "In Stock",
+      "rating": 4.7
+    },
+    {
+      "id": 2,
+      "image": "https://i.ibb.co/vscrxgc/km-1920x1080-i5-png-rendition-intel-web-64-64.png",
+      "name": "Motherboard",
+      "category": "Motherboard",
+      "price": 150,
+      "status": "In Stock",
+      "rating": 4.5
+    },
+    {
+      "id": 3,
+      "image": "https://i.ibb.co/vscrxgc/km-1920x1080-i5-png-rendition-intel-web-64-64.png",
+      "name": "RAMs",
+      "category": "RAM",
+      "price": 80,
+      "status": "In Stock",
+      "rating": 4.2
+    },
+    {
+      "id": 4,
+      "image": "https://i.ibb.co/vscrxgc/km-1920x1080-i5-png-rendition-intel-web-64-64.png",
+      "name": "Power Supply",
+      "category": "PSU",
+      "price": 100,
+      "status": "In Stock",
+      "rating": 4.8
+    },
+    {
+      "id": 5,
+      "image": "https://i.ibb.co/vscrxgc/km-1920x1080-i5-png-rendition-intel-web-64-64.png",
+      "name": "Storage Device",
+      "category": "Storage Device",
+      "price": 120,
+      "status": "In Stock",
+      "rating": 4.6
+    },
+    {
+      "id": 6,
+      "image": "https://i.ibb.co/vscrxgc/km-1920x1080-i5-png-rendition-intel-web-64-64.png",
+      "name": "Monitor",
+      "category": "Monitor",
+      "price": 250,
+      "status": "In Stock",
+      "rating": 4.3
+    },
+    {
+      "id": 7,
+      "image": "https://i.ibb.co/vscrxgc/km-1920x1080-i5-png-rendition-intel-web-64-64.png",
+      "name": "CPU ",
+      "category": "Central CPU",
+      "price": 180,
+      "status": "In Stock",
+      "rating": 4.6
+    },
+    {
+      "id": 8,
+      "image": "https://i.ibb.co/vscrxgc/km-1920x1080-i5-png-rendition-intel-web-64-64.png",
+      "name": "Motherboard",
+      "category": "Motherboard",
+      "price": 130,
+      "status": "In Stock",
+      "rating": 4.4
+    },
+    {
+      "id": 9,
+      "image": "https://i.ibb.co/vscrxgc/km-1920x1080-i5-png-rendition-intel-web-64-64.png",
+      "name": "RAM",
+      "category": "Value Top",
+      "price": 70,
+      "status": "In Stock",
+      "rating": 4.1
+    },
+    {
+      "id": 10,
+      "image": "https://i.ibb.co/vscrxgc/km-1920x1080-i5-png-rendition-intel-web-64-64.png",
+      "name": "PSU",
+      "category": "Power Supply Unit",
+      "price": 110,
+      "status": "In Stock",
+      "rating": 4.9
+    }
+  ]
+}
