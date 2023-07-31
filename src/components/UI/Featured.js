@@ -1,14 +1,7 @@
 import React from "react";
-import {
-  EditOutlined,
-  EllipsisOutlined,
-  SettingOutlined,
-} from "@ant-design/icons";
 import { Avatar, Button, Card } from "antd";
 import Image from "next/image";
 import Link from "next/link";
-
-const { Meta } = Card;
 
 const Featured = ({ pcData }) => {
   return (
