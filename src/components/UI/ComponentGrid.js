@@ -35,7 +35,7 @@ const ComponentGrid = ({pcData}) => {
               Status: <span className="font-semibold">{product?.status}</span>
             </p>
             <p className="text-xl font-normal">
-              Rating: <span className="font-semibold">{product?.rating}</span>
+              Rating: <span className="font-semibold">{product?.average_rating}</span>
             </p>
           </div>
           <div className="text-right mt-2">

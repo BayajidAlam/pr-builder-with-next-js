@@ -2,85 +2,531 @@
   "pc": [
     {
       "image": "https://i.ibb.co/5MM8G7B/processor.jpg",
-      "name": "Processor",
+      "name": "Intel Core i9-11900K",
       "category": "CPU / Processor",
-      "price": 200,
       "status": "In Stock",
-      "rating": 4.7
+      "price": 499.99,
+      "description": "The Intel Core i9-11900K is a high-performance processor with 8 cores and 16 threads, ideal for gaming and heavy multitasking.",
+      "key_features": {
+        "brand": "Intel",
+        "model": "Core i9-11900K",
+        "cores": 8,
+        "threads": 16,
+        "base_clock": "3.5GHz",
+        "max_clock": "5.3GHz",
+        "socket": "LGA1200",
+        "cache": "16MB",
+        "power_draw": "125W"
+      },
+      "individual_rating": {
+        "user1": 5,
+        "user2": 4,
+        "user3": 5,
+        "user4": 5
+      },
+      "average_rating": 4.75,
+      "reviews": [
+        {
+          "username": "user1",
+          "rating": 5,
+          "comment": "Amazing processor, excellent performance!",
+          "date": "2023-08-01"
+        },
+        {
+          "username": "user2",
+          "rating": 4,
+          "comment": "Runs hot, but it's incredibly fast.",
+          "date": "2023-07-29"
+        },
+        {
+          "username": "user3",
+          "rating": 5,
+          "comment": "Great for gaming and content creation.",
+          "date": "2023-07-25"
+        },
+        {
+          "username": "user4",
+          "rating": 5,
+          "comment": "The best CPU I've ever had!",
+          "date": "2023-07-22"
+        }
+      ]
     },
     {
-      "image":   "https://i.ibb.co/SyD9w4q/download.jpg",
-      "name": "Motherboard",
+      "image": "https://i.ibb.co/SyD9w4q/download.jpg",
+      "name": "Intel Core i9-11900K",
       "category": "Motherboard",
-      "price": 150,
       "status": "In Stock",
-      "rating": 4.5
+      "price": 499.99,
+      "description": "The Intel Core i9-11900K is a high-performance processor with 8 cores and 16 threads, ideal for gaming and heavy multitasking.",
+      "key_features": {
+        "brand": "Intel",
+        "model": "Core i9-11900K",
+        "cores": 8,
+        "threads": 16,
+        "base_clock": "3.5GHz",
+        "max_clock": "5.3GHz",
+        "socket": "LGA1200",
+        "cache": "16MB",
+        "power_draw": "125W"
+      },
+      "individual_rating": {
+        "user1": 5,
+        "user2": 4,
+        "user3": 5,
+        "user4": 5
+      },
+      "average_rating": 4.75,
+      "reviews": [
+        {
+          "username": "user1",
+          "rating": 5,
+          "comment": "Amazing processor, excellent performance!",
+          "date": "2023-08-01"
+        },
+        {
+          "username": "user2",
+          "rating": 4,
+          "comment": "Runs hot, but it's incredibly fast.",
+          "date": "2023-07-29"
+        },
+        {
+          "username": "user3",
+          "rating": 5,
+          "comment": "Great for gaming and content creation.",
+          "date": "2023-07-25"
+        },
+        {
+          "username": "user4",
+          "rating": 5,
+          "comment": "The best CPU I've ever had!",
+          "date": "2023-07-22"
+        }
+      ]
     },
     {
-      "image":
-      "https://i.ibb.co/gRVK9XR/istockphoto-92434128-612x612.jpg",
-      "name": "RAMs",
+      "image": "https://i.ibb.co/gRVK9XR/istockphoto-92434128-612x612.jpg",
+      "name": "Intel Core i9-11900K",
       "category": "RAM",
-      "price": 80,
       "status": "In Stock",
-      "rating": 4.2
+      "price": 499.99,
+      "description": "The Intel Core i9-11900K is a high-performance processor with 8 cores and 16 threads, ideal for gaming and heavy multitasking.",
+      "key_features": {
+        "brand": "Intel",
+        "model": "Core i9-11900K",
+        "cores": 8,
+        "threads": 16,
+        "base_clock": "3.5GHz",
+        "max_clock": "5.3GHz",
+        "socket": "LGA1200",
+        "cache": "16MB",
+        "power_draw": "125W"
+      },
+      "individual_rating": {
+        "user1": 5,
+        "user2": 4,
+        "user3": 5,
+        "user4": 5
+      },
+      "average_rating": 4.75,
+      "reviews": [
+        {
+          "username": "user1",
+          "rating": 5,
+          "comment": "Amazing processor, excellent performance!",
+          "date": "2023-08-01"
+        },
+        {
+          "username": "user2",
+          "rating": 4,
+          "comment": "Runs hot, but it's incredibly fast.",
+          "date": "2023-07-29"
+        },
+        {
+          "username": "user3",
+          "rating": 5,
+          "comment": "Great for gaming and content creation.",
+          "date": "2023-07-25"
+        },
+        {
+          "username": "user4",
+          "rating": 5,
+          "comment": "The best CPU I've ever had!",
+          "date": "2023-07-22"
+        }
+      ]
     },
     {
-      "image":
-      "https://i.ibb.co/4pJ2cZt/7-ME636b-QNGEGGrg5q-Et-Wr-K.jpg",
+      "image": "",
       "name": "Power Supply",
-      "category": "PSU",
+      "category": "",
       "price": 100,
       "status": "In Stock",
       "rating": 4.8
     },
     {
+      "image": "https://i.ibb.co/4pJ2cZt/7-ME636b-QNGEGGrg5q-Et-Wr-K.jpg",
+      "name": "Intel Core i9-11900K",
+      "category": "PSU",
+      "status": "In Stock",
+      "price": 499.99,
+      "description": "The Intel Core i9-11900K is a high-performance processor with 8 cores and 16 threads, ideal for gaming and heavy multitasking.",
+      "key_features": {
+        "brand": "Intel",
+        "model": "Core i9-11900K",
+        "cores": 8,
+        "threads": 16,
+        "base_clock": "3.5GHz",
+        "max_clock": "5.3GHz",
+        "socket": "LGA1200",
+        "cache": "16MB",
+        "power_draw": "125W"
+      },
+      "individual_rating": {
+        "user1": 5,
+        "user2": 4,
+        "user3": 5,
+        "user4": 5
+      },
+      "average_rating": 4.75,
+      "reviews": [
+        {
+          "username": "user1",
+          "rating": 5,
+          "comment": "Amazing processor, excellent performance!",
+          "date": "2023-08-01"
+        },
+        {
+          "username": "user2",
+          "rating": 4,
+          "comment": "Runs hot, but it's incredibly fast.",
+          "date": "2023-07-29"
+        },
+        {
+          "username": "user3",
+          "rating": 5,
+          "comment": "Great for gaming and content creation.",
+          "date": "2023-07-25"
+        },
+        {
+          "username": "user4",
+          "rating": 5,
+          "comment": "The best CPU I've ever had!",
+          "date": "2023-07-22"
+        }
+      ]
+    },
+    {
       "image": "https://i.ibb.co/vscrxgc/km-1920x1080-i5-png-rendition-intel-web-64-64.png",
-      "name": "Storage Device",
+      "product_name": "Intel Core i9-11900K",
       "category": "Storage Device",
-      "price": 120,
       "status": "In Stock",
-      "rating": 4.6
+      "price": 499.99,
+      "description": "The Intel Core i9-11900K is a high-performance processor with 8 cores and 16 threads, ideal for gaming and heavy multitasking.",
+      "key_features": {
+        "brand": "Intel",
+        "model": "Core i9-11900K",
+        "cores": 8,
+        "threads": 16,
+        "base_clock": "3.5GHz",
+        "max_clock": "5.3GHz",
+        "socket": "LGA1200",
+        "cache": "16MB",
+        "power_draw": "125W"
+      },
+      "individual_rating": {
+        "user1": 5,
+        "user2": 4,
+        "user3": 5,
+        "user4": 5
+      },
+      "average_rating": 4.75,
+      "reviews": [
+        {
+          "username": "user1",
+          "rating": 5,
+          "comment": "Amazing processor, excellent performance!",
+          "date": "2023-08-01"
+        },
+        {
+          "username": "user2",
+          "rating": 4,
+          "comment": "Runs hot, but it's incredibly fast.",
+          "date": "2023-07-29"
+        },
+        {
+          "username": "user3",
+          "rating": 5,
+          "comment": "Great for gaming and content creation.",
+          "date": "2023-07-25"
+        },
+        {
+          "username": "user4",
+          "rating": 5,
+          "comment": "The best CPU I've ever had!",
+          "date": "2023-07-22"
+        }
+      ]
     },
     {
       "image": "https://i.ibb.co/vscrxgc/km-1920x1080-i5-png-rendition-intel-web-64-64.png",
-      "name": "Monitor",
+      "name": "Intel Core i9-11900K",
       "category": "Monitor",
-      "price": 250,
       "status": "In Stock",
-      "rating": 4.3
+      "price": 499.99,
+      "description": "The Intel Core i9-11900K is a high-performance processor with 8 cores and 16 threads, ideal for gaming and heavy multitasking.",
+      "key_features": {
+        "brand": "Intel",
+        "model": "Core i9-11900K",
+        "cores": 8,
+        "threads": 16,
+        "base_clock": "3.5GHz",
+        "max_clock": "5.3GHz",
+        "socket": "LGA1200",
+        "cache": "16MB",
+        "power_draw": "125W"
+      },
+      "individual_rating": {
+        "user1": 5,
+        "user2": 4,
+        "user3": 5,
+        "user4": 5
+      },
+      "average_rating": 4.75,
+      "reviews": [
+        {
+          "username": "user1",
+          "rating": 5,
+          "comment": "Amazing processor, excellent performance!",
+          "date": "2023-08-01"
+        },
+        {
+          "username": "user2",
+          "rating": 4,
+          "comment": "Runs hot, but it's incredibly fast.",
+          "date": "2023-07-29"
+        },
+        {
+          "username": "user3",
+          "rating": 5,
+          "comment": "Great for gaming and content creation.",
+          "date": "2023-07-25"
+        },
+        {
+          "username": "user4",
+          "rating": 5,
+          "comment": "The best CPU I've ever had!",
+          "date": "2023-07-22"
+        }
+      ]
     },
     {
       "image": "https://i.ibb.co/vscrxgc/km-1920x1080-i5-png-rendition-intel-web-64-64.png",
-      "name": "CPU ",
-      "category": "Central CPU",
-      "price": 180,
+      "product_name": "Intel Core i9-11900K",
+      "category": "CPU / Processor",
       "status": "In Stock",
-      "rating": 4.6
+      "price": 499.99,
+      "description": "The Intel Core i9-11900K is a high-performance processor with 8 cores and 16 threads, ideal for gaming and heavy multitasking.",
+      "key_features": {
+        "brand": "Intel",
+        "model": "Core i9-11900K",
+        "cores": 8,
+        "threads": 16,
+        "base_clock": "3.5GHz",
+        "max_clock": "5.3GHz",
+        "socket": "LGA1200",
+        "cache": "16MB",
+        "power_draw": "125W"
+      },
+      "individual_rating": {
+        "user1": 5,
+        "user2": 4,
+        "user3": 5,
+        "user4": 5
+      },
+      "average_rating": 4.75,
+      "reviews": [
+        {
+          "username": "user1",
+          "rating": 5,
+          "comment": "Amazing processor, excellent performance!",
+          "date": "2023-08-01"
+        },
+        {
+          "username": "user2",
+          "rating": 4,
+          "comment": "Runs hot, but it's incredibly fast.",
+          "date": "2023-07-29"
+        },
+        {
+          "username": "user3",
+          "rating": 5,
+          "comment": "Great for gaming and content creation.",
+          "date": "2023-07-25"
+        },
+        {
+          "username": "user4",
+          "rating": 5,
+          "comment": "The best CPU I've ever had!",
+          "date": "2023-07-22"
+        }
+      ]
     },
     {
       "image": "https://i.ibb.co/vscrxgc/km-1920x1080-i5-png-rendition-intel-web-64-64.png",
-      "name": "Motherboard",
+      "product_name": "Intel Core i9-11900K",
       "category": "Motherboard",
-      "price": 130,
       "status": "In Stock",
-      "rating": 4.4
+      "price": 499.99,
+      "description": "The Intel Core i9-11900K is a high-performance processor with 8 cores and 16 threads, ideal for gaming and heavy multitasking.",
+      "key_features": {
+        "brand": "Intel",
+        "model": "Core i9-11900K",
+        "cores": 8,
+        "threads": 16,
+        "base_clock": "3.5GHz",
+        "max_clock": "5.3GHz",
+        "socket": "LGA1200",
+        "cache": "16MB",
+        "power_draw": "125W"
+      },
+      "individual_rating": {
+        "user1": 5,
+        "user2": 4,
+        "user3": 5,
+        "user4": 5
+      },
+      "average_rating": 4.75,
+      "reviews": [
+        {
+          "username": "user1",
+          "rating": 5,
+          "comment": "Amazing processor, excellent performance!",
+          "date": "2023-08-01"
+        },
+        {
+          "username": "user2",
+          "rating": 4,
+          "comment": "Runs hot, but it's incredibly fast.",
+          "date": "2023-07-29"
+        },
+        {
+          "username": "user3",
+          "rating": 5,
+          "comment": "Great for gaming and content creation.",
+          "date": "2023-07-25"
+        },
+        {
+          "username": "user4",
+          "rating": 5,
+          "comment": "The best CPU I've ever had!",
+          "date": "2023-07-22"
+        }
+      ]
     },
     {
       "image": "https://i.ibb.co/vscrxgc/km-1920x1080-i5-png-rendition-intel-web-64-64.png",
-      "name": "RAM",
-      "category": "Value Top",
-      "price": 70,
+      "product_name": "Intel Core i9-11900K",
+      "category": "RAM",
       "status": "In Stock",
-      "rating": 4.1
+      "price": 499.99,
+      "description": "The Intel Core i9-11900K is a high-performance processor with 8 cores and 16 threads, ideal for gaming and heavy multitasking.",
+      "key_features": {
+        "brand": "Intel",
+        "model": "Core i9-11900K",
+        "cores": 8,
+        "threads": 16,
+        "base_clock": "3.5GHz",
+        "max_clock": "5.3GHz",
+        "socket": "LGA1200",
+        "cache": "16MB",
+        "power_draw": "125W"
+      },
+      "individual_rating": {
+        "user1": 5,
+        "user2": 4,
+        "user3": 5,
+        "user4": 5
+      },
+      "average_rating": 4.75,
+      "reviews": [
+        {
+          "username": "user1",
+          "rating": 5,
+          "comment": "Amazing processor, excellent performance!",
+          "date": "2023-08-01"
+        },
+        {
+          "username": "user2",
+          "rating": 4,
+          "comment": "Runs hot, but it's incredibly fast.",
+          "date": "2023-07-29"
+        },
+        {
+          "username": "user3",
+          "rating": 5,
+          "comment": "Great for gaming and content creation.",
+          "date": "2023-07-25"
+        },
+        {
+          "username": "user4",
+          "rating": 5,
+          "comment": "The best CPU I've ever had!",
+          "date": "2023-07-22"
+        }
+      ]
     },
     {
       "image": "https://i.ibb.co/vscrxgc/km-1920x1080-i5-png-rendition-intel-web-64-64.png",
-      "name": "PSU",
-      "category": "Power Supply Unit",
-      "price": 110,
+      "product_name": "Intel Core i9-11900K",
+      "category": "PSU",
       "status": "In Stock",
-      "rating": 4.9
+      "price": 499.99,
+      "description": "The Intel Core i9-11900K is a high-performance processor with 8 cores and 16 threads, ideal for gaming and heavy multitasking.",
+      "key_features": {
+        "brand": "Intel",
+        "model": "Core i9-11900K",
+        "cores": 8,
+        "threads": 16,
+        "base_clock": "3.5GHz",
+        "max_clock": "5.3GHz",
+        "socket": "LGA1200",
+        "cache": "16MB",
+        "power_draw": "125W"
+      },
+      "individual_rating": {
+        "user1": 5,
+        "user2": 4,
+        "user3": 5,
+        "user4": 5
+      },
+      "average_rating": 4.75,
+      "reviews": [
+        {
+          "username": "user1",
+          "rating": 5,
+          "comment": "Amazing processor, excellent performance!",
+          "date": "2023-08-01"
+        },
+        {
+          "username": "user2",
+          "rating": 4,
+          "comment": "Runs hot, but it's incredibly fast.",
+          "date": "2023-07-29"
+        },
+        {
+          "username": "user3",
+          "rating": 5,
+          "comment": "Great for gaming and content creation.",
+          "date": "2023-07-25"
+        },
+        {
+          "username": "user4",
+          "rating": 5,
+          "comment": "The best CPU I've ever had!",
+          "date": "2023-07-22"
+        }
+      ]
     }
   ]
 }
