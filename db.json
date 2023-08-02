@@ -1,8 +1,7 @@
 {
   "pc": [
     {
-      "id": 1,
-      "image": "https://i.ibb.co/vscrxgc/km-1920x1080-i5-png-rendition-intel-web-64-64.png",
+      "image": "https://i.ibb.co/5MM8G7B/processor.jpg",
       "name": "Processor",
       "category": "CPU / Processor",
       "price": 200,
@@ -10,8 +9,7 @@
       "rating": 4.7
     },
     {
-      "id": 2,
-      "image": "https://i.ibb.co/vscrxgc/km-1920x1080-i5-png-rendition-intel-web-64-64.png",
+      "image":   "https://i.ibb.co/SyD9w4q/download.jpg",
       "name": "Motherboard",
       "category": "Motherboard",
       "price": 150,
@@ -19,8 +17,8 @@
       "rating": 4.5
     },
     {
-      "id": 3,
-      "image": "https://i.ibb.co/vscrxgc/km-1920x1080-i5-png-rendition-intel-web-64-64.png",
+      "image":
+      "https://i.ibb.co/gRVK9XR/istockphoto-92434128-612x612.jpg",
       "name": "RAMs",
       "category": "RAM",
       "price": 80,
@@ -28,8 +26,8 @@
       "rating": 4.2
     },
     {
-      "id": 4,
-      "image": "https://i.ibb.co/vscrxgc/km-1920x1080-i5-png-rendition-intel-web-64-64.png",
+      "image":
+      "https://i.ibb.co/4pJ2cZt/7-ME636b-QNGEGGrg5q-Et-Wr-K.jpg",
       "name": "Power Supply",
       "category": "PSU",
       "price": 100,
@@ -37,7 +35,6 @@
       "rating": 4.8
     },
     {
-      "id": 5,
       "image": "https://i.ibb.co/vscrxgc/km-1920x1080-i5-png-rendition-intel-web-64-64.png",
       "name": "Storage Device",
       "category": "Storage Device",
@@ -46,7 +43,6 @@
       "rating": 4.6
     },
     {
-      "id": 6,
       "image": "https://i.ibb.co/vscrxgc/km-1920x1080-i5-png-rendition-intel-web-64-64.png",
       "name": "Monitor",
       "category": "Monitor",
@@ -55,7 +51,6 @@
       "rating": 4.3
     },
     {
-      "id": 7,
       "image": "https://i.ibb.co/vscrxgc/km-1920x1080-i5-png-rendition-intel-web-64-64.png",
       "name": "CPU ",
       "category": "Central CPU",
@@ -64,7 +59,6 @@
       "rating": 4.6
     },
     {
-      "id": 8,
       "image": "https://i.ibb.co/vscrxgc/km-1920x1080-i5-png-rendition-intel-web-64-64.png",
       "name": "Motherboard",
       "category": "Motherboard",
@@ -73,7 +67,6 @@
       "rating": 4.4
     },
     {
-      "id": 9,
       "image": "https://i.ibb.co/vscrxgc/km-1920x1080-i5-png-rendition-intel-web-64-64.png",
       "name": "RAM",
       "category": "Value Top",
@@ -82,7 +75,6 @@
       "rating": 4.1
     },
     {
-      "id": 10,
       "image": "https://i.ibb.co/vscrxgc/km-1920x1080-i5-png-rendition-intel-web-64-64.png",
       "name": "PSU",
       "category": "Power Supply Unit",

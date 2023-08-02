@@ -1,5 +1,5 @@
 import React from 'react';
-import {  Button, Layout, Menu, theme } from 'antd';
+import {  Layout,  theme } from 'antd';
 import Header from '../Header';
 const {  Content, Footer } = Layout;
 
@@ -16,7 +16,7 @@ const MainLayout = ({children}) => {
      
       >
         <div
-          className="site-layout-content"
+          className="site-layout-content min-h-screen"
           style={{
             background: colorBgContainer,
           }}

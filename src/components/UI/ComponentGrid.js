@@ -1,12 +1,13 @@
-import React from "react";
-import { Button, Card } from "antd";
-import Image from "next/image";
-import Link from "next/link";
+import { Button, Card } from 'antd';
+import Image from 'next/image';
+import Link from 'next/link';
+import React from 'react';
 
-const Featured = ({ pcData }) => {
+const ComponentGrid = ({pcData}) => {
   return (
-    <div className="lg:flex items-center justify-center gap-4 my-8">
-      {pcData.slice(0, 5).map((product, i) => (
+    <div className='container mx-auto'>
+        <div className="grid lg:grid-cols-4 grid-cols-1 items-center justify-center  my-8 lg:gap-0 gap-4">
+      {pcData.map((product, i) => (
         <Card
           className="w-full lg:w-[300px] shadow-2xl"
           key={i}
@@ -38,14 +39,15 @@ const Featured = ({ pcData }) => {
             </p>
           </div>
           <div className="text-right mt-2">
-            <Link href={`/product/${product?.id}`}>
+            <Link href={`/product/${product?._id}`}>
               <Button type="primary">View Details</Button>
             </Link>
           </div>
         </Card>
       ))}
     </div>
+    </div>
   );
 };
 
-export default Featured;
+export default ComponentGrid;
