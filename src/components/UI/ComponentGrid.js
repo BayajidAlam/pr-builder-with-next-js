@@ -9,7 +9,7 @@ const ComponentGrid = ({pcData}) => {
         <div className="grid lg:grid-cols-4 grid-cols-1 items-center justify-center  my-8 lg:gap-0 gap-4">
       {pcData.map((product, i) => (
         <Card
-          className="w-full lg:w-[300px] shadow-2xl"
+          className="w-full lg:w-[300px] shadow-2xl p-2"
           key={i}
           style={{ width: 300 }}
           cover={
