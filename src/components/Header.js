@@ -1,7 +1,10 @@
+import { signOut, useSession } from "next-auth/react";
 import Link from "next/link";
 import React from "react";
 
 const Header = () => {
+  const { data: session } = useSession();
+
   return (
     <div className="bg-white flex items-center justify-between lg:container w-[95%] mx-auto py-2">
       <Link href="/">
@@ -46,6 +49,15 @@ const Header = () => {
                 Others
               </Link>
             </li>
+            {session?.user && (
+              <li>
+                <button 
+                onClick={()=>signOut(session)}
+                className="hover:text-gray-300 bg-blue-800 outline-none text-gray-300 ">
+                  Log out
+                </button>
+              </li>
+            )}
           </ul>
         </div>
 

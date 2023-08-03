@@ -8,7 +8,7 @@ const Featured = ({ pcData }) => {
     <div className="lg:flex items-center justify-center gap-4 my-8">
       {pcData.slice(0, 5).map((product, i) => (
         <Card
-          className="w-full lg:w-[300px] shadow-2xl lg:mb-0 mb-4 p-2"
+          className="w-full lg:w-[300px] shadow-2xl lg:mb-0 mb-4 p-2 h-[550px]"
           key={i}
           style={{ width: 300 }}
           cover={

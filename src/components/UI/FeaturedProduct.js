@@ -4,7 +4,7 @@ import React from "react";
 
 const FeaturedProduct = ({ allCategory }) => {
   return (
-    <div className="lg:flex items-center justify-center gap-4 mb-8">
+    <div className="lg:flex items-center justify-center gap-4 mb-20">
       {allCategory?.map((category) => (
         <Link key={category.id} href={`/${category?.categoryName}`}>
           <div className="relative">

@@ -1,6 +1,7 @@
 import MainLayout from "@/components/Layout/MainLayout";
 import Featured from "@/components/UI/Featured";
 import FeaturedProduct from "@/components/UI/FeaturedProduct";
+import Hero from "@/components/UI/Hero";
 
 const allCategory = [
   { 
@@ -57,9 +58,10 @@ const allCategory = [
 const HomePage = ({ pcData }) => {
   return (
     <div className="container mx-auto">
-      <h2 className="my-4">Featured Products</h2>
+      <Hero/>
+      <h2 className="mt-4">Featured Products</h2>
       <Featured pcData={pcData}></Featured>
-      <h2 className="my-4">Featured Categories</h2>
+      <h2 className="mb-4 mt-20">Featured Categories</h2>
       <FeaturedProduct allCategory={allCategory}></FeaturedProduct>
     </div>
   );
