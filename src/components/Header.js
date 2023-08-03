@@ -4,9 +4,10 @@ import React from "react";
 const Header = () => {
   return (
     <div className="bg-white flex items-center justify-between lg:container w-[95%] mx-auto py-2">
-      <p className="text-black text-3xl font-bold">Next Pc</p>
+      <Link href="/">
+        <p className="text-black text-3xl font-bold">Next Pc</p>
+      </Link>
       <div className="flex gap-16 items-center">
-
         <div className="relative group ">
           <div className="text-xl font-bold">Categories</div>
           <ul className="absolute bg-gray-800 hidden group-hover:block  px-4 py-2 mr-2 space-y-2 list-none w-40">
@@ -18,32 +19,32 @@ const Header = () => {
             <li>
               <Link href="/motherboard" className="hover:text-gray-300">
                 Motherboard
-                </Link>
+              </Link>
             </li>
             <li>
               <Link href="/ram" className="hover:text-gray-300">
                 RAM
-                </Link>
+              </Link>
             </li>
             <li>
               <Link href="/psu" className="hover:text-gray-300">
                 Power Supply Unit
-                </Link>
+              </Link>
             </li>
             <li>
               <Link href="/storage" className="hover:text-gray-300">
                 Storage Device
-                </Link>
+              </Link>
             </li>
             <li>
               <Link href="/monitor" className="hover:text-gray-300">
                 Monitor
-                </Link>
+              </Link>
             </li>
             <li>
               <Link href="/others" className="hover:text-gray-300">
                 Others
-                </Link>
+              </Link>
             </li>
           </ul>
         </div>

@@ -37,9 +37,10 @@ const Featured = ({ pcData }) => {
               Rating: <span className="font-semibold">{product?.average_rating}</span>
             </p>
           </div>
-          <div className="text-right mt-2">
+          <div className="flex flex-col items-center mt-2">
+            <Button type="primary w-full  bg-gradient-to-r from-violet-500 to-fuchsia-500 shadow-md shadow-orange-300">Add to builder</Button>
             <Link href={`/product/${product?._id}`}>
-              <Button type="primary">View Details</Button>
+              <Button type="primary mt-2 shadow-lg shadow-orange-300  bg-gradient-to-r from-violet-500 to-fuchsia-500">View Details</Button>
             </Link>
           </div>
         </Card>

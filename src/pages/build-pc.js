@@ -50,6 +50,8 @@ const allCategory = [
 ];
 
 const PcBuilderPage = () => {
+
+  
   return (
     <div className="container mx-auto py-12">
       <div className="lg:w-1/3 p-2 bg-gradient-to-r from-blue-500 to-fuchsia-500  mx-auto">
@@ -70,6 +72,9 @@ const PcBuilderPage = () => {
             </Link>
           </div>
         ))}
+        <div className="text-center mb-3">
+          <Button type="primary">Complete Build</Button>
+        </div>
       </div>
     </div>
   );
