@@ -2,6 +2,7 @@ import { createSlice } from "@reduxjs/toolkit";
 
 const initialState = {
   products: [],
+  total: 0
 };
 
 export const builderSlice = createSlice({
@@ -9,19 +10,16 @@ export const builderSlice = createSlice({
   initialState,
   reducers: {
     addToBuild: (state, action) => {
-      
-      const existing = state.products.find(
-        (product) => product.category === action.payload.category
-      );
-      if (!existing) {
-        state.products.push({ ...action.payload, quantity: 1 });
-      } else {
-        existing.quantity = existing.quantity + 1;
-      }
+      state.products.push({...action.payload})
     },
+    removeFromBuilder: (state, action) => {
+      state.products = state.products.filter((product)=>{
+        product._id !== action.payload._id
+      })
+    }
   },
 });
 
-export const { addToBuild } = builderSlice.actions;
+export const { addToBuild,removeFromBuilder } = builderSlice.actions;
 
 export default builderSlice.reducer;

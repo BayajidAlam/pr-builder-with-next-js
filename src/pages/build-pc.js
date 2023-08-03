@@ -1,40 +1,122 @@
 import MainLayout from "@/components/Layout/MainLayout";
+import { removeFromBuilder } from "@/redux/features/builder/builderSlice";
 import { Button } from "antd";
 import Image from "next/image";
 import Link from "next/link";
-import React from "react";
-import { useSelector } from "react-redux";
+import React, { useEffect, useState } from "react";
+import { useDispatch, useSelector } from "react-redux";
 
-const PcBuilderPage = ({ compo }) => {
+const PcBuilderPage = ({ pcBuilder }) => {
   const { products } = useSelector((state) => state.pc);
 
+  const [isArraySame, setIsArraySame] = useState(false);
+
+  const selectedCategories = [];
+  const pcBuilderCategories = [];
+
+  useEffect(() => {
+    products.forEach((element) => {
+      selectedCategories.push(element.category);
+    });
+    pcBuilder?.forEach((element) => {
+      pcBuilderCategories.push(element.category);
+    });
+
+    const compareArrays = (arr1, arr2) => {
+      if (arr1.length !== arr2.length) {
+        return false;
+      }
+      const sortedArr1 = arr1.slice().sort();
+      const sortedArr2 = arr2.slice().sort();
+      // Compare each element of the arrays
+      for (let i = 0; i < arr1.length; i++) {
+        if (sortedArr1[i] !== sortedArr2[i]) {
+          return false;
+        }
+      }
+
+      return true;
+    };
+
+    if (compareArrays(selectedCategories, pcBuilderCategories)) {
+      setIsArraySame(true);
+    }
+  }, [pcBuilder, pcBuilderCategories, products, selectedCategories]);
+
+  const handlePcBuild = () => {
+    if (isArraySame) {
+      toast.success("We will contact you soon");
+    }
+  };
+
+  const dispatch = useDispatch();
+
   return (
-    <div className="container mx-auto py-12">
-      <div className="lg:w-1/3 p-2 bg-gradient-to-r from-blue-500 to-fuchsia-500  mx-auto">
-        {compo.map((category, i) => (
-          <div key={i}>
-            <div className="flex justify-between p-2 items-center">
+    <div>
+      <div className="grid grid-cols-1 place-content-center justify-items-center">
+        <h1 className="text-center mb-10">PC Builder</h1>
+        {pcBuilder.map((item, i) => (
+          <div
+            key={i}
+            className="bg-pink-50 rounded-xl mx-8 border w-11/12 lg:w-5/12 m-5"
+          >
+            <div className=" flex justify-between  items-center p-4">
               <Image
-                src={category.image}
-                width={100}
-                height={100}
-                alt={`${category.category}-image`}
+                src={item.image}
+                width={110}
+                height={110}
+                alt={item.category}
               ></Image>
-              <p className="text-xl font-bold text-gray-300">
-                {category.category}
-              </p>
-              <Link href={`/${category.categoryName}`}>
-                {" "}
-                <Button type="primary">Choose</Button>
-              </Link>
+              <p className="text-2xl font-bold mb-4">{item.category}</p>
+
+              <Button className="bg-gradient-to-r from-blue-500 to-fuchsia-500" type="primary">
+                <Link href={`/${item.categoryName}`}> Choose</Link>
+              </Button>
             </div>
+            {products.map((product) => (
+              <>
+                {product.category === item.category && (
+                  <div className=" flex items-center justify-between mx-3 mb-3">
+                    <div className="flex gap-4">
+                      <Image
+                        src={product.image}
+                        height={60}
+                        width={80}
+                        alt="image"
+                      ></Image>
+                      <div className="flex items-center">
+                        <div>
+                          <p className="font-bold">{product.productName}</p>
+                          <p>${product.price}</p>
+                        </div>
+                      </div>
+                    </div>
+                    <Button
+                      flat
+                      color="error"
+                      auto
+                      onClick={() => dispatch(removeFromBuilder(product))}
+                    >
+                      Remove
+                    </Button>
+                  </div>
+                )}
+              </>
+            ))}
           </div>
         ))}
-        <div className="text-center mb-3">
-          <Button disabled={products.length !== 6} type="primary">
-            Complete Build
-          </Button>
-        </div>
+      </div>
+      <div className="mb-4">
+        <button
+          className={
+            isArraySame
+              ? "text-center flex justify-center items-center mx-auto bg-green-400 px-4 py-2 rounded-lg"
+              : " text-center flex justify-center items-center mx-auto bg-gray-300 px-4 py-2 cursor-not-allowed rounded-lg"
+          }
+          onClick={handlePcBuild}
+        >
+          Confirm
+        </button>
       </div>
     </div>
   );
@@ -51,7 +133,7 @@ export const getStaticProps = async () => {
   const data = await res.json();
   return {
     props: {
-      compo: data,
+      pcBuilder: data,
     },
     revalidate: 10,
   };

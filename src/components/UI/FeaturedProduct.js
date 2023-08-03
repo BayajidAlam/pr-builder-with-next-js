@@ -9,6 +9,7 @@ const FeaturedProduct = ({ allCategory }) => {
         <Link key={category.id} href={`/${category?.categoryName}`}>
           <div className="relative">
             <Image
+              className="w-full"
               src={category.image}
               width={205}
               height={250}

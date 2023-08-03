@@ -90,7 +90,7 @@ export default function Login() {
         </p>
         <div 
         onClick={()=>signIn('github',{
-          callbackUrl:'http://localhost:3000'
+          callbackUrl:'http://localhost:3000/build-pc'
         })}
         className="flex items-center justify-center text-white">
             <AiFillGithub className="text-center text-3xl bg-pink-500 w-16 h-8 rounded-full"/>

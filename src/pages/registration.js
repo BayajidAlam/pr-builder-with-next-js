@@ -96,7 +96,7 @@ export default function Signup() {
         <div
           onClick={() =>
             signIn("github", {
-              callbackUrl: "http://localhost:3000",
+              callbackUrl: "http://localhost:3000/build-pc",
             })
           }
           className="flex items-center justify-center text-white"
