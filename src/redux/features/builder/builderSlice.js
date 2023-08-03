@@ -9,6 +9,7 @@ export const builderSlice = createSlice({
   initialState,
   reducers: {
     addToBuild: (state, action) => {
+      
       const existing = state.products.find(
         (product) => product.category === action.payload.category
       );

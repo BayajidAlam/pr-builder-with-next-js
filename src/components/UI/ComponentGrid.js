@@ -6,9 +6,7 @@ import React from "react";
 import { useDispatch, useSelector } from "react-redux";
 
 const ComponentGrid = ({ pcData }) => {
-  const dispatch = useDispatch()
-const products = useSelector((state)=>state.products)
-console.log(products);
+  const dispatch = useDispatch();
   return (
     <div className="container mx-auto">
       <div className="grid lg:grid-cols-4 grid-cols-1 items-center justify-center  my-8 lg:gap-0 gap-4">
@@ -45,11 +43,14 @@ console.log(products);
               </p>
             </div>
             <div className="flex flex-col items-center mt-2">
-              <Button 
-              onClick={()=>dispatch(addToBuild(product))}
-              type="primary w-full  bg-gradient-to-r from-violet-500 to-fuchsia-500 shadow-md shadow-orange-300">
-                Add to builder
-              </Button>
+              <Link href="/build-pc">
+                <Button
+                  onClick={() => dispatch(addToBuild(product))}
+                  type="primary w-full  bg-gradient-to-r from-violet-500 to-fuchsia-500 shadow-md shadow-orange-300"
+                >
+                  Add to builder
+                </Button>
+              </Link>
               <Link href={`/product/${product?._id}`}>
                 <Button type="primary mt-2 shadow-lg shadow-orange-300  bg-gradient-to-r from-violet-500 to-fuchsia-500">
                   View Details
