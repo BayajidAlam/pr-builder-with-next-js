@@ -45,7 +45,7 @@ const PcBuilderPage = ({ pcBuilder }) => {
 
   const handlePcBuild = () => {
     if (isArraySame) {
-      toast.success("We will contact you soon");
+      toast.success("Your build has been built successfully");
     }
   };
 
