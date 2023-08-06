@@ -4,6 +4,7 @@ import { Button } from "antd";
 import Image from "next/image";
 import Link from "next/link";
 import React, { useEffect, useState } from "react";
+import { Toaster, toast } from "react-hot-toast";
 import { useDispatch, useSelector } from "react-redux";
 
 const PcBuilderPage = ({ pcBuilder }) => {
@@ -118,6 +119,7 @@ const PcBuilderPage = ({ pcBuilder }) => {
           Confirm
         </button>
       </div>
+      <Toaster/>
     </div>
   );
 };

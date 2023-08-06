@@ -6,13 +6,13 @@ const Header = () => {
   const { data: session } = useSession();
 
   return (
-    <div className="bg-white flex items-center justify-between lg:container w-[95%] mx-auto py-2">
+    <div className="bg-white flex items-center justify-between lg:container w-[95%] mx-auto py-2 z-50">
       <Link href="/">
         <p className="text-black text-3xl font-bold">Next Pc</p>
       </Link>
       <div className="flex gap-16 items-center">
         <div className="relative group ">
-          <div className="text-xl font-bold">Categories</div>
+          <div className="text-lg px-3  h-8 w-28 bg-gradient-to-r from-violet-500 to-fuchsia-500 border border-none text-white font-bold">Categories</div>
           <ul className="absolute bg-gray-800 hidden group-hover:block  px-4 py-2 mr-2 space-y-2 list-none w-40">
             <li>
               <Link href="/cpu" className="hover:text-gray-300">
