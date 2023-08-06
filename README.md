@@ -33,7 +33,7 @@ Pc builder is pc building website build on the top of Next js, React, javascript
 
 
 ## 🔗 Links
-[![portfolio](https://img.shields.io/badge/Livesite-000?style=for-the-badge&logo=ko-fi&logoColor=white)]([https://sound-music-store.web.app/](https://pc-builder-flame-one.vercel.app/))
+[![portfolio](https://img.shields.io/badge/Livesite-000?style=for-the-badge&logo=ko-fi&logoColor=white)](https://pc-builder-flame-one.vercel.app/)
 
 [![portfolio](https://img.shields.io/badge/Github-client-000?style=for-the-badge&logo=ko-fi&logoColor=white)](https://github.com/BayajidAlam/pr-builder-with-next-rtk-ant)
 
